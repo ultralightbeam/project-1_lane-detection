@@ -32,6 +32,7 @@ Finally, we overlay our lane detection results on the original image.
 
 ### 2. Shortcomings and how to improve
 
-A possible improvement would be to ...
+A shortcoming of the current approach is that is it complete based on rules that we gathered from ideal driving scenarios. Few challenging natural scenarios that violate the rules of the algorithm would be road with illumination variations from signs, other cars making lane changes, etc, and a lot of false lanes would be generated. To address those situations, we can modify the algorithm in two ways
+* modifiable lane length to gain precision
+* incorporate temporal information
 
-Another potential improvement could be to ...
