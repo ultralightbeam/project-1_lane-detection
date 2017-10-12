@@ -2,22 +2,7 @@
 
 ---
 
-**Finding Lane Lines on the Road**
-
-The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
-
-
-[//]: # ()
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
-
----
-
-### Reflection
-
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Approach
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
@@ -28,15 +13,7 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ![alt text](https://github.com/willtopower/project_1-lane_detection_using_low_level_CV/blob/master/dshin_sample.png)
 
 
-### 2. Identify potential shortcomings with your current pipeline
-
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
-
-
-### 3. Suggest possible improvements to your pipeline
+### 2. Shortcomings and how to improve
 
 A possible improvement would be to ...
 
