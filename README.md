@@ -3,13 +3,16 @@
 
 ### 1. Approach
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+Here I designed a lane detector using low-level computer vision techniques. I will illustrate the steps of my algorithmic approach using the sample image below.
 
 ![alt text](https://github.com/willtopower/project_1-lane_detection_using_low_level_CV/blob/master/imgs/img_1_raw_solidyellow.png)
+
+First, we convert the RGB image to grayscale and apply canny edge detector (low_thres=50, high_thres=150) on an image that is Gaussian blurred with kernel_size=5
+
+
+![alt text](https://github.com/willtopower/project_1-lane_detection_using_low_level_CV/blob/master/imgs/img_2_canny.png)
+
+
 
 
 ### 2. Shortcomings and how to improve
