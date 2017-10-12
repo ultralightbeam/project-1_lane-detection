@@ -19,7 +19,15 @@ We then apply a line detector based on Hough transform. For the Hough transform 
 
 ![alt text](https://github.com/willtopower/project_1-lane_detection_using_low_level_CV/blob/master/imgs/img_4_hough_raw.png)
 
+Since our aim is to determine one left (or right) lane, we aggregate all left (or right) lanes detected by previous step, and average their end coordinates to generate a single filtered line. The left/right determination was done by looking at the slope of individual lines. If(y2-y1)/(x2-x1) was greater than 0.3, we called it a candidate right lane, and if(y2-y1)/(x2-x1) was less than -0.3, we call it a candidate left lane. Note that a margin was forced in the slope check step to reject false lane detections.
 
+Also, the single left and right lanes then were corrected to touch the bottom and near-center of image. This was done by applying simple linear extrapolation.
+
+![alt text](https://github.com/willtopower/project_1-lane_detection_using_low_level_CV/blob/master/imgs/img_5_hough_filt_ex.png)
+
+Finally, we overlay our lane detection results on the original image.
+
+![alt text](https://github.com/willtopower/project_1-lane_detection_using_low_level_CV/blob/master/imgs/img_6_overlay.png)
 
 
 ### 2. Shortcomings and how to improve
