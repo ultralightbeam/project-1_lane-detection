@@ -15,6 +15,11 @@ Because the camera is upright and facing forward, we can assume the vanishing po
 
 ![alt text](https://github.com/willtopower/project_1-lane_detection_using_low_level_CV/blob/master/imgs/img_3_canny_mask.png)
 
+We then apply a line detector based on Hough transform. For the Hough transform parameters, I used threshold=3, min_line_length=100, and max_line_gap=100
+
+![alt text](https://github.com/willtopower/project_1-lane_detection_using_low_level_CV/blob/master/imgs/img_4_hough_raw.png)
+
+
 
 
 ### 2. Shortcomings and how to improve
