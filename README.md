@@ -9,7 +9,7 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 
-[//]: # (Image References)
+[//]: # (https://github.com/willtopower/project_1-lane_detection_using_low_level_CV/blob/master/dshin_sample.png)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
